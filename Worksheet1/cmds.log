@@ -1,0 +1,106 @@
+    1  pwd
+    2  mkdir test
+    3  ls
+    4  cd
+    5  rmdir test
+    6  ls
+    7  cd
+    8  mkdir m
+    9  ls
+   10  pwd
+   11  ls
+   12  exit
+   13  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   14  ls
+   15  vi spotify-2023.csv
+   16  ls
+   17  vi test
+   18  ls
+   19  cat test
+   20  sort test
+   21  cat test
+   22  sort test
+   23  cat test
+   24  ls
+   25  mv test test.txt
+   26  ls
+   27  vi test.txt
+   28  cat test.txt
+   29  sort test.txt
+   30  cat test.txt
+   31  vi demo.txt
+   32  ls
+   33  "hello world" > demo.txt
+   34  echo "hello world"
+   35  echo "Hello world" > demo.txt
+   36  cat demo.txt
+   37  echo "hello world 3" >> demo.txt
+   38  cat demo.txt
+   39  clear
+   40  history
+   41  clear
+   42  wget www.github.com
+   43  cs
+   44  ls
+   45  exit
+   46  wget www.github.com
+   47  history > cmds.oog
+   48  history > cmds.log
+   49  ls
+   50  cd ~/Desktop
+   51  exit
+   52  wget www.github.com
+   53  history > cmds.log
+   54  git add .
+   55  git init
+   56  git add .
+   57  git status
+   58  clear
+   59  mkdir Worksheet1
+   60  ls -ltr
+   61  cd Worksheet1
+   62  git init
+   63  git init .
+   64  git add history > cmds.log
+   65  ls
+   66  cd cmds.log
+   67  ls
+   68  clea
+   69  clear
+   70  ls
+   71  git add cmds.log
+   72  git commit
+   73  git config --global user.email athishk13@gmail.com
+   74  git config --global user.name Athish Kumar
+   75  git add cmds.log
+   76  git commit
+   77  wget www.github.com
+   78  cd Desktop
+   79  ls
+   80  exit
+   81  wget www.github.com
+   82  ls
+   83  pwd
+   84  cd ~/Desktop
+   85  git init
+   86  mkdir Worksheet1
+   87  ls
+   88  cd Worksheet1
+   89  ls
+   90  history > cmds.log
+   91  ls
+   92  git push cmds.log
+   93  git push --set-upstream cmds.log main
+   94  git push --set-upstream cmds.log master
+   95  del Worksheet1
+   96  rm Worksheet1
+   97  rmdir Worksheet1
+   98  mkdir cs131
+   99  ls
+  100  cd cs131
+  101  ls
+  102  mkdir Worksheet1
+  103  ls
+  104  git init
+  105  cd Worksheet1
+  106  history > cmds.log
