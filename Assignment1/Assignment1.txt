@@ -1,0 +1,58 @@
+1. made directory "Assignment1" under existing cs131 directory.
+
+2. To echo current Shell use command: echo $SHELL
+output of the command is: /bin/bash
+
+3. To echo home directory path use command: echo $HOME
+output of the command is: /mnt/scratch/SP24_CS131_Jyotika/athishsp24
+
+4. My UID is 1207 and I found this by using command: id -u athishsp24
+output of the command is: 1207 
+To find the groups I belong to I used command: id -Gn athishsp24
+The ouput of the command is:
+athishsp24 S78
+The groups I belong to are: athishsp24 and S78
+
+5. created new directory "myDir" under the Assignment1 folder.
+Removed write permissions using command: chmod u-w /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1/myDir
+
+From this temp directory, I am able to cd into the directory. I can also run the ls command. The ls -l command returns "total 0". However, when trying to create files, it returns permission denied since the writing permission was taken away from my user.
+
+6. created new directory "myDir2" and "myDir3"
+
+7. created file "myFile.txt" within myDir2. then moved file to myDir3 using command: mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1/myDir3
+
+8. found total amount of RAM/Memory in IBM VM and displayed the amount of memory in mebibytes using command: free -m
+output of the command:
+              total        used        free      shared  buff/cache   available
+Mem:          71367       32004       20377        3504       18985       34400
+Swap:          4119           0        4119
+
+9. identifying the operating system version can be done using command: cat /etc/os-release
+output of the command is:
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+the file under /etc/ that contains this information is "os-release".
+
+10. to find the permissions (given to all users) for the file containing the OS version information I ran the command: ls -l //usr/lib/os-release
+the output is as follows:
+-rw-r--r--. 1 root root 592 Apr  6  2022 //usr/lib/os-release
+
+This shows that the owner has read and write permissions, the user group has only read permissions, and all others only have read permissions as well.
+
+
