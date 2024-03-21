@@ -1,0 +1,1006 @@
+   63  ls
+   64  cd cs131
+   65  ls
+   66  mkdir Worksheet1
+   67  ls
+   68  git init
+   69  cd Worksheet1
+   70  history > cmds.log
+   71  git status
+   72  git add cmds.log
+   73  git stattus
+   74  git status
+   75  git commit -m "Commit"
+   76  git status
+   77  git checkout -b new-branch
+   78  git branch
+   79  git remote add origin https://github.com/athishk13/cs131.git
+   80  git branch -M main
+   81  git push -u origin main
+   82  git remote add origin https://github.com/athishk13/cs131.git
+   83  git branch -M main
+   84  git push -u origin main
+   85  git remote add origin https://github.com/athishk13/cs131.git
+   86  git branch -M main
+   87  git push -u origin main
+   88  git remote add origin https://github.com/athishk13/cs131.git
+   89  git branch -m main
+   90  git push -u origin main
+   91  git status
+   92  git remote add origin https://github.com/athishk13/cs131.git
+   93  git branch -M main
+   94  git branch -new-branch main
+   95  git branch -M main
+   96  git push -u origin main
+   97  git branch -M main
+   98  git push -u origin main
+   99  git branch -M main
+  100  git push -u origin main
+  101  git remote add origin https://github.com/athishk13/cs131.git
+  102  git branch -M main
+  103  git push -u origin main
+  104  git remote set-url
+  105  git remote set-url --add athishk13 https://github.com/athishk13/cs131.git/
+  106  git remote set-url --push Athish git remote set-url --add athishk13 https://github.com/athishk13/cs131.git/
+  107  git remote set-url --add athishk13 https://github.com/athishk13/cs131.git/
+  108  git remote set-url --push Athish https://github.com/athishk13/cs131.git/
+  109  .git/config
+  110  git remote set-url origin https://athishk13@github.com/athishk13/cs131.git
+  111  git push
+  112  git push --set-upstream origin main
+  113  git remote add origin https://github.com/athishk13/cs131.git
+  114  git branch -M main
+  115  git push -u origin main
+  116  ls
+  117  ls | grep test
+  118  grep test
+  119  ls
+  120  cd Worksheet1
+  121  ls
+  122  cd cmds.log
+  123  open cmds.log
+  124  clear
+  125  cd ..
+  126  ls
+  127  cd index.html
+  128  touch file.txt
+  129  ls -l
+  130  lis -la
+  131  ls -la
+  132  mkdir temp
+  133  ls
+  134  cd temp
+  135  ls -la
+  136  chmod 764
+  137  chmod 765 file.txt
+  138  ls
+  139  touch file1.txt
+  140  ls
+  141  ls -la
+  142  ch mod 764 file1.txt
+  143  chmod 764 file1.txt
+  144  ls
+  145  chmod ugo+rw file1.txt
+  146  ls -l
+  147  chmod u-x file1.txt
+  148  ls -l
+  149  chmod a+x file1.txt
+  150  ls -l
+  151  cd ..
+  152  ls
+  153  ls -l
+  154  chmod a-rw temp
+  155  cd temp/
+  156  ls
+  157  cat file1.txt
+  158  ls
+  159  cd ..
+  160  ls
+  161  chmod a+rw temp
+  162  ls -l
+  163  cd temp
+  164  ls
+  165  vi file1.txt
+  166  cd temp
+  167  ls
+  168  cat file1.txt
+  169  cd ..
+  170  ls
+  171  ls *.txt
+  172  ls ?.txt
+  173  ls ????.txt
+  174  ls [!e].txt
+  175  ls [a-z].txt
+  176  mkdir newDir1
+  177  find . -name newDir
+  178  ls
+  179  find . -name temp
+  180  find . -type f -name test
+  181  vi samplePdf.pdf
+  182  cat samplePdf.pdf
+  183  vi samplePdf.pdf
+  184  cat samplePdf.pdf
+  185  ls -l grep samplePdf.pdf
+  186  ls
+  187  rm test.txt
+  188  ls
+  189  rm cmds.oog
+  190  ls
+  191  cd ~
+  192  cd index.htm;
+  193  cd newDir1
+  194  cd ~
+  195  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  196  ls
+  197  cd 'Global YouTube Statistics.csv'
+  198  touch 'Global YouTube Statistics.csv'
+  199  ls
+  200  cat 'Global YouTube Statistics.csv'
+  201  grep 'United States' 'Global YouTube Statistics.csv'
+  202  grep 'Music' 'Global YouTube Statistics.csv'
+  203  grep 'Music' 'Global YouTube Statistics.csv' | wc -l
+  204  ls
+  205  grep 'Music' 'Global YouTube Statistics.csv' | wc -l
+  206  > counts.txt
+  207  vi counts.txt
+  208  grep 'Music' 'Global YouTube Statistics.csv' | wc -l > counts.txt
+  209  vi counts.txt
+  210  history > cmds.log
+  211  ls
+  212  cat cmds.log
+  213  mkdir Worksheet2
+  214  ls
+  215  cd Worksheet2
+  216  ls
+  217  touch cmds.log
+  218  ls
+  219  touch counts.txt
+  220  ls
+  221  git remote add origin git@github.com:athishk13/cs131.git
+  222  git status
+  223  git add Worksheet2
+  224  git init
+  225  git commit Worksheet2
+  226  ls
+  227  git push --set-upstream origin main
+  228  git status
+  229  git add cmds.log
+  230  git add counts.txt
+  231  git status
+  232  git commit -m "commit"
+  233  git branch
+  234  git push branch master
+  235  git status
+  236  git push
+  237  ls
+  238  git push origin main
+  239  git push origin master
+  240  git status
+  241  git init
+  242  git push -u cs131
+  243   git push --set-upstream cs131 master
+  244  git status
+  245  https://github.com/athishk13/cs131.git
+  246  git https://github.com/athishk13/cs131.git
+  247  git init https://github.com/athishk13/cs131.git
+  248  git revert
+  249  --continue
+  250  -continue
+  251  git reset
+  252  ls
+  253  cd https:
+  254  ls
+  255  cd ..
+  256  ls
+  257  rm https:
+  258  cd https:
+  259  ls
+  260  cd github.com
+  261  ls
+  262  cd athishk13
+  263  ls
+  264  cd cs131.git
+  265  ls
+  266  cd ~
+  267  ls
+  268  cd Worksheet2
+  269  ls 
+  270  rmdir https:
+  271  rm -f https:
+  272  rmdir -f https:
+  273  ls
+  274  cd https:
+  275  ls
+  276  cd github.com
+  277  ls
+  278  cd athishk13
+  279  ls
+  280  cd cs131.git
+  281  ls
+  282  cd ..
+  283  rmdir cs131.git
+  284  cd cs131.git
+  285  ls
+  286  rmdir
+  287  rmdir cs131.git
+  288  cd ~
+  289  clear
+  290  ls
+  291  rmdir Worksheet2
+  292  rmdir -p Worksheet2
+  293  Worksheet2
+  294  cd Worksheet2
+  295  ls
+  296  rm -r https:
+  297  ls
+  298  git init
+  299  git add cmds.log
+  300  git add counts.txt
+  301  git status
+  302  git remote set-url origin git@github.com:athishk13/cs131.git
+  303  git remote add origin athishk13
+  304  git remote add origin https://github.com/athishk13/cs131.git
+  305  git push origin master
+  306  git status
+  307  cd ..
+  308  ls
+  309  rm -r Worksheet2
+  310  ls
+  311  mkdir Worksheet2
+  312  cd Worksheet2
+  313  touch cmds.log
+  314  touch counts.txt
+  315  ls
+  316  Worksheet2
+  317  ls
+  318  cd ..
+  319  ls
+  320  cd Worksheet
+  321  cd Worksheet2
+  322  ls
+  323  git init
+  324  git add .
+  325  git status
+  326  git commit -m
+  327  git commit -m "commit"
+  328  git remote set-url origin git@github.com:athishk13/cs131.git
+  329  git remote add origin https://github.com/athishk13/cs131.git
+  330  git branch -M main
+  331  git push -u origin main
+  332  git status
+  333  git init
+  334  git remote add origin https://github.com/athishk13/cs131.git
+  335  git push -u origin main
+  336  git push origin main
+  337  ls
+  338  git status
+  339  clear
+  340  ls
+  341  cd ..
+  342  ls
+  343  rm -r Worksheet
+  344  rm -r Worksheet2
+  345  ls
+  346  mkdir Worksheet2
+  347  ls
+  348  cd Worksheet 2
+  349  cd Worksheet2
+  350  ls
+  351  touch cmds.log
+  352  touch counts.txt
+  353  ls
+  354  cd Worksheet2
+  355  ls
+  356  cd counts.txt
+  357  cat counts.tx
+  358  cat counts.txt
+  359  vi counts.txt
+  360  cat cmds.log
+  361  vi cmds.log
+  362  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  363  ls
+  364  rm -r 'Global YouTube Statistics.csv'
+  365  ls
+  366  cd ..
+  367  ls
+  368  grep 'United States' 'Global YouTube Statistics.csv'
+  369  grep 'Music' 'Global YouTube Statistics.csv'
+  370  grep -i 'music' 'Global YouTube Statistics.csv' | wc -l
+  371  grep -i 'music' 'Global YouTube Statistics.csv' | wc -l > counts.txt
+  372  cat counts.txt
+  373  grep -i 'music' 'Global YouTube Statistics.csv' | wc
+  374  grep -i 'music' 'Global YouTube Statistics.csv' | wc -w
+  375  grep -i 'music' 'Global YouTube Statistics.csv' | wc -w > counts.txt
+  376  cat counts.txt
+  377  grep -i 'music' 'Global YouTube Statistics.csv' | wc -l >> counts.txt
+  378  cat counts.txt
+  379  vi counts.txt
+  380  cat counts.txt
+  381  history > cmds.log
+  382  cat cmds.log
+  383  ls
+  384  cd Worksheet2
+  385  ls
+  386  cd ..
+  387  ls -al
+  388  pwd
+  389  git status
+  390  git remote -v
+  391  git rm --cached .bash_history
+  392  git log
+  393  git branch
+  394  git status
+  395  git log
+  396  git branch
+  397  git status
+  398  git log
+  399  git remote -v
+  400  git branch
+  401  cd Worksheet1
+  402  ls
+  403  git status
+  404  git log
+  405  ls -al
+  406  git remote -v
+  407  cmds.log it branch
+  408  git branch
+  409  git remote -v
+  410  git push origin master
+  411  cd ..
+  412  ls -al
+  413  git branch
+  414  git status
+  415  git stash
+  416  ls
+  417  cd cs131
+  418  git status
+  419  git stash
+  420  cd
+  421  ls
+  422  cd cs131
+  423  ls
+  424  touch Worksheet2
+  425  ls
+  426  cd Worksheet2
+  427  rm Worksheet2
+  428  ls
+  429  cd ..
+  430  mv Worksheet2 cs131
+  431  cd cs131
+  432  ls
+  433  cd Worksheet2
+  434  ls
+  435  cd
+  436  cd cs131
+  437  git status
+  438  git add Worksheet2
+  439  git commit
+  440  git push
+  441  git status
+  442  git push
+  443  ls
+  444  cs131
+  445  cd cs131
+  446  ls
+  447  cd Worksheet2
+  448  ls
+  449  cd cmds.log
+  450  cat cmds.log
+  451  ls
+  452  cd counts.txt
+  453  cat counts.txt
+  454  cd ~
+  455  ls
+  456  cat counts.txt
+  457  cat cmds.log
+  458  ls
+  459  cd cs131
+  460  ls
+  461  cd ~
+  462  mv cmds.log counts.txt Worksheet2
+  463  pwd
+  464  cd 131
+  465  cd cs131
+  466  ls
+  467  git status
+  468  git push
+  469  cd ~/.ssh && ssh-keygen
+  470  mkdir ~/.ssh
+  471  cd ~/.ssh && ssh-keygen
+  472  cat id_rsa.pub
+  473  cd cs131
+  474  ls
+  475  cd ..
+  476  ls
+  477  cd cs131
+  478  ls
+  479  git status
+  480  git push
+  481  ls
+  482  cd cs131
+  483  ls
+  484  git status
+  485  git push
+  486  git config --global user.name "athishk13"
+  487  git config --global user.email "athishk13@gmail.com"
+  488  git push
+  489  git remote -v
+  490  git remote add origin git@github.com:athishk13/cs131.git
+  491  git remote rm origin
+  492  git remote add origin git@github.com:athishk13/cs131.git
+  493  git remote -v
+  494  git push
+  495  git push --set upstream origin main
+  496  git push --set-upstream origin main
+  497  cd ~
+  498  ls
+  499  mv cmds.log Worksheet2/
+  500  pwd
+  501  mv cmds.log cs131
+  502  mv counts.txt
+  503  mv counts.txt cs131
+  504  ls
+  505  cd cs131
+  506  ls
+  507  mv cmds.log Worksheet2
+  508  mv counts.txt Worksheet
+  509  mv counts.txt Worksheet2
+  510  ls
+  511  mv Worksheet counts.txt
+  512  ls
+  513  mv counts.txt Worksheet2
+  514  cd Worksheet2
+  515  ls
+  516  cat cmds.log
+  517  cat counts.txt
+  518  git status
+  519  git add
+  520  git commit
+  521  git add cmds.log
+  522  git add counts.txt
+  523  git status
+  524  git commit
+  525  git status
+  526  git push
+  527  pwd
+  528  ls
+  529  cd cs131
+  530  ls
+  531  cd Worksheet2
+  532  ls
+  533  cd ~
+  534  ls -l
+  535  printenv
+  536  printenv | grep PATH
+  537  pwd
+  538  usr/bin
+  539  usr/bin/ls
+  540  /usr/bin
+  541  /usr/bin:
+  542  which cat
+  543  whereis cat
+  544  whereis ls
+  545  echo ~
+  546  ls
+  547  cat demo.txt
+  548  ps -aux
+  549  ps -aux | grep jyotika
+  550  ps -aux | grep athishsp24
+  551  ps -aux | grep athishs
+  552  ps -aux | head
+  553  clear
+  554  pwd
+  555  ps -p <PID>
+  556  ps -afjx | head
+  557  echo $?
+  558  clear
+  559  echo $?
+  560  cat dlksjf.txt
+  561  echo $?
+  562  top
+  563  nice
+  564  pwd
+  565  find /etc
+  566  find /etc/ -type f -name "demo.txt"
+  567  ls
+  568  find /etc/ -type f -name "file.txt"
+  569  find /etc/ -type f -name "*.txt"
+  570  find /etc/ -type f -name "*.txt" 1>output.txt 2>error.txt
+  571  ls
+  572  cat output.txt
+  573  cat error.txt
+  574  exit
+  575  ls
+  576  cd cs131
+  577  mkdir Assignment1
+  578  ls
+  579  cd Assignment1
+  580  echo $SHELL
+  581  echo $HOME
+  582  sudo cat /etc/passwd
+  583  id -u athishsp24
+  584  id -g athishsp24
+  585  id athishsp24
+  586  touch Assignment1.txt
+  587  vi Assignment1.txt
+  588  groups athishsp14
+  589  groups athishsp24
+  590  id -Gn athishsp24
+  591  vi Assignment1.txt
+  592  mkdir myDir
+  593  ls
+  594  ls
+  595  cd cs131
+  596  ls
+  597  cd Assignment1
+  598  ls
+  599  cd myDir
+  600  pwd
+  601  chmod u-w /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1/myDir
+  602  cd myDir
+  603  ls
+  604  cd ..
+  605  ls
+  606  cd myDir
+  607  ls
+  608  ls -l
+  609  ls -ld /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1/myDir
+  610  touch exampleFile.txt
+  611  cd ..
+  612  vi Assignment1.txt
+  613  cd myDir
+  614  cd
+  615  cd ..
+  616  ls
+  617  cd athishsp24
+  618  ls
+  619  cd cs131
+  620  ls
+  621  cd Assignment1
+  622  ls
+  623  cd myDir
+  624  ls
+  625  ls -l
+  626  vi Assignment1.txt
+  627  ls
+  628  cd ..
+  629  ls
+  630  vi Assignment.txt
+  631  cd ~
+  632  ls
+  633  cd cs131
+  634  cd Assignment1
+  635  vi Assignment1.txt
+  636  mkdir myDir2
+  637  mkdir myDir3
+  638  ls
+  639  cd myDir22
+  640  cd myDir2
+  641  touch myFile.txt
+  642  ls
+  643  mv myFile.txt myDir3
+  644  ls
+  645  mv myDir3 myFile.txt
+  646  ls
+  647  cd ..
+  648  ls
+  649  cd myDir3
+  650  pwd
+  651  cd ..
+  652  ls
+  653  cd myDir2
+  654  ls
+  655  mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1/myDir3
+  656  ls
+  657  cd ..
+  658  ls
+  659  cd myDir3
+  660  ls
+  661  cd ..
+  662  vi Assignment1.txt
+  663  free
+  664  man free
+  665  free -m
+  666  vi Assignment1.txt
+  667  cat /etc/os-release
+  668  uname -a
+  669  vi Assignment1.txt
+  670  ls -l
+  671  /etc/os-release -l
+  672  Assignment1.txt -l
+  673  ls -l /etc/os-release
+  674  stat /etc/os-release
+  675  vi Assignment1.txt
+  676  ls -l /etc/os-release
+  677  ls -l //usr/lib/os-release
+  678  vi Assignment1.txt
+  679  id -u athishsp24
+  680  vi Assignment1.txt
+  681  ls
+  682  rm Assignment.txt
+  683  ls
+  684  cd ..
+  685  ls
+  686  git init
+  687  git add Assignment1
+  688  git status
+  689  git reset
+  690  git status
+  691  ls
+  692  cd ~
+  693  ls
+  694  history > cmds.log
+  695  cat cmds.log
+  696  script
+  697  ls
+  698  cat typescript
+  699  rm typescript
+  700  ls
+  701  cd cs131
+  702  ls
+  703  cd Asssignment1
+  704  cd Assignment1
+  705  ls
+  706  cat Assignment1.txt
+  707  free -m
+  708  vi Assignment1.txt
+  709  cat /etc/os-relase
+  710  cat /etc/os-release
+  711  vi Assignment1.txt
+  712  id -Gn athishsp24
+  713  vi Assignment1.txt
+  714  find /etc -type f
+  715  ls
+  716  cd cs131
+  717  cd Assignment1
+  718  vi Assignment1.txt
+  719  cat > /dev/tty
+  720  cd ~
+  721  ls
+  722  cd newDir1
+  723  ls
+  724  echo "12 + 5" |bc
+  725  echo "10^2" | bc
+  726  echo "hello" | ls
+  727  echo "hello" | echo "hellosflkj"
+  728  ls
+  729  vi file2.txt
+  730  wc -c *.txt
+  731  wc -l *.txt
+  732  vi file2.txt
+  733  who
+  734  who |tee users.lst
+  735  ls
+  736  cat users.lst
+  737  man tee
+  738  cd ~
+  739  cd cs131
+  740  cd Assignment1
+  741  vi Assignment1.txt
+  742  history
+  743  cd cs131
+  744  ls
+  745  cd Assignment1
+  746  ls
+  747  git remote add
+  748  git remote add -f
+  749  git remote add Assignment1.txt
+  750  git status
+  751  git add Assignment1
+  752  git add Assignment1.txt
+  753  git status
+  754  cmds.log
+  755  git add cmds.log
+  756  cat cmds.log
+  757  history > cmds.log
+  758  cat cmds.log
+  759  pwd
+  760  ls cmds.log
+  761  find cmds.log
+  762  pwd
+  763  mv cmds.log /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1
+  764  ls
+  765  cat cmds.log
+  766  ls
+  767  git status
+  768  git add cmds.log
+  769  git status
+  770  ls
+  771  cd myDir3
+  772  ls
+  773  cd ..
+  774  git status
+  775  git commit
+  776  git push
+  777  git clone https://github.com/athishk13/cs131.git
+  778  ls
+  779  ls -l demo.txt
+  780  echo $SHELL
+  781  echo $HOME
+  782  man tar
+  783  man tar --help
+  784  tar --help
+  785  tar -h
+  786  tar -usage
+  787  tar --usage
+  788  man head
+  789  ls
+  790  vi demo.txt
+  791  man wc
+  792  man grep
+  793  echo "me"
+  794  pwd
+  795  echo 'pwd'
+  796  echo "pwd"
+  797  'pwd'
+  798  echo $HOME
+  799  echo $USERNAME
+  800  echo $PATH
+  801  @ $USERNAME
+  802  echo $USERNAME
+  803  echo $USER
+  804  echo $TERM
+  805  echo $PWD
+  806  printenv
+  807  echo $?
+  808  ls
+  809  cd cs131
+  810  ls
+  811  cd Assignment1
+  812  ls
+  813  cd cs131
+  814  ls
+  815  cd cs131
+  816  cd ~
+  817  ls
+  818  cd cs131
+  819  ls
+  820  cd Worksheet1
+  821  ls
+  822  cd ..
+  823  ls
+  824  cd Assignment1
+  825  ls
+  826  rmdir cs131
+  827  cd cs131
+  828  ls
+  829  cd Assignment1
+  830  ls
+  831  cat Assignment1.txt
+  832  cd ~
+  833  ls
+  834  cd cs131
+  835  cd ~
+  836  ls
+  837  vi .bashrc
+  838  source .bashrc
+  839  vi .bashrc
+  840  ls
+  841  vi .bashrc
+  842  source .bashrc
+  843  vi .bashrc
+  844  source .bashrc
+  845  lll
+  846  echo 'Hello $USER'
+  847  echo "Hello $USER"
+  848  file_count=`wc -l spotify-2023.csv`
+  849  echo "The number of files in the driectory is: $file_count"
+  850  man sudo
+  851  su
+  852  exit
+  853  ls
+  854  sudo visudo
+  855  pwd
+  856  man chown
+  857  cd ..
+  858  ls
+  859  cd athishsp24
+  860  ls
+  861  chown demo.txt jonathansp24
+  862  chown jonathansp24 demo.txt
+  863  chown ken1 demo.txt
+  864  ls -l
+  865  man usermod
+  866  user mode -aG wheel testusr
+  867  usermod -aG wheel testusr
+  868  ls -l
+  869  vi .bashrc
+  870  lll
+  871  source .bashrc
+  872  lll
+  873  crontab file
+  874  ls
+  875  crontab error.txt
+  876  crontab demo.txt
+  877  crontab file.txt
+  878  crontab -l
+  879  crontab -e
+  880  crontab -r
+  881  ls
+  882  date
+  883  crontab -e
+  884  ls .bashrc
+  885  ls .[b]ashrc
+  886  ls .[ba]ashrc
+  887  ls
+  888  ls -l .bashrc
+  889  cd cs131
+  890  ls
+  891  ls *.txt
+  892  cd Assignment1
+  893  ls
+  894  ls *.txt
+  895  find . -type f -name "Assignment1.txt"
+  896  cd ~
+  897  find . -type f -name "Assignment1.txt"
+  898  find Assignment1.txt -path
+  899  find -path Assignment1.txt
+  900  echo find -path Assignment1.txt
+  901  find $PWD - type f -name Assignment1.txt
+  902  find $PWD -type f -name Assignment1.txt
+  903  echo 'pwd'
+  904  echo "pwd"
+  905  'pwd'
+  906  echo $HOME
+  907  pwd
+  908  echo 'pwd'
+  909  echo "pwd"
+  910  cat /etc/crontab
+  911  cat
+  912  wc demo.txt
+  913  find /etc -type f > res.txt 2> error.txt
+  914  echo "hello" > /dev/null
+  915  cat /dev/null
+  916  cat > /dev/tty
+  917  ls | wc
+  918  wc ls
+  919  ls | wc
+  920  cat *.c | wc -c
+  921  cat *.txt | wc
+  922  wc *.txt
+  923  cat > /dev/tty
+  924  cat < /dev/tty
+  925  kill-session
+  926  tmux kill-session
+  927  tmux kill-session
+  928  ls
+  929  d
+  930  IPC
+  931  cd IPC
+  932  tmux rename-session tutorial
+  933  ls
+  934  tmux ls
+  935  tmux
+  936  tmux attach
+  937  tmux rename-session -t 0 homework
+  938  tmux rename-session tutorial
+  939  tmux attach
+  940  tmux
+  941  tmux ls
+  942  tmux kill-session 1
+  943  tmux ls
+  944  tmux 1
+  945  tmux attach 1
+  946  tmux attach
+  947  ls
+  948  tmux ls
+  949  tmux attach
+  950  tmux ls
+  951  cd cs131
+  952  ls
+  953  cd Assignment1
+  954  ls
+  955  rm -f cs131
+  956  rm -r cs131
+  957  ls
+  958  cd cs131
+  959  ls
+  960  rm
+  961  rm --
+  962  cd ..
+  963  ls
+  964  find . -type d -name cs131 -delete
+  965  cd cs131
+  966  pwd
+  967  cd ..
+  968  rm -r /mnt/scratch/SP24_CS131_Jyotika/athishsp24/cs131/Assignment1/cs131
+  969  cd ..
+  970  find /etc -type f > one.txt 2> two.txt
+  971  ls
+  972  cd cs131
+  973  ls
+  974  mkdir Assignment2
+  975  ls
+  976  cd ~
+  977  ls
+  978  cat one.txt
+  979  ls
+  980  cd cs131
+  981  ls
+  982  cd Assignment2
+  983  ls
+  984  vi Assignment2.txt
+  985  cat two.txt
+  986  cd ~
+  987  ls
+  988  cat two.txt
+  989  cd cs131
+  990  cd Assignment2
+  991  ls
+  992  vi Assignment2.txt
+  993  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  994  ls
+  995  cd cs131
+  996  history
+  997  history -tail
+  998  ls
+  999  cd Assignment2
+ 1000  ls
+ 1001  cd cs131
+ 1002  ls
+ 1003  cd Assignment2
+ 1004  ls
+ 1005  cat 'Global YouTube Statistics.csv'
+ 1006  'cut -d ',' 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -n 3
+
+
+'Global YouTube Statistics.csv'
+4
+23
+
+ 1007  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | awk -F ',' '{print $2 "," $1}' | sort | uniq -c | sort -nr | head -n 3
+ 1008  cut -d ',' -f 3,4 "Global YouTube Statistics.csv" | sed '1d' | awk -F ',' '{print $2 "," $1}' | sort | uniq -c | sort -nr | head -n 3
+ 1009  ls
+ 1010  cd cut -d ',' -f 3,4 "Global YouTube Statistics.csv" | sed '1d' | awk -F ',' '{print $2 "," $1}' | sort | uniq -c | sort -nr | head -n 3
+ 1011  cd 'Global Youtube Statistics.csv'
+ 1012  uniq -c
+ 1013  cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -n 3
+ 1014  cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | tail -n +2 > temp_data.csv
+ 1015  sort -t ',' -k2,2 -k1,1 temp_data.csv > sorted_data.csv
+ 1016  uniq -c sorted_data.csv > count_data.csv
+ 1017  sort -nr -t ',' -k1 count_data.csv | head -n 3
+ 1018  cut -d ',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+ 1019  vi Assignment2.txt
+ 1020  ps -u$(athishkumar)
+ 1021  ps -u$(athishsp24)
+ 1022  ps -u $(whoami)
+ 1023  vi Assignment2.txt
+ 1024  ps -u athishsp24
+ 1025  vi Assignment2.txt
+ 1026  vi file.txt
+ 1027  vi Assignment2.txt
+ 1028  vi file.txt
+ 1029  vi Assignment2.txt
+ 1030  vi file.txt
+ 1031  vi Assignment2.txt
+ 1032  ps -p 1
+ 1033  vi Assignment2.txt
+ 1034  cat cmds.log
+ 1035  ls
+ 1036  rm count_data.csv
+ 1037  cat sorted_data.csv
+ 1038  ls
+ 1039  rm temp_data.csv
+ 1040  ls
+ 1041  rm sorted_data.csv
+ 1042  ls
+ 1043  history
+ 1044  history > cmds.log
+ 1045  ls
+ 1046  cmds.log > tail -n 100 > cmds.log
+ 1047  cmds.log > tail -n 100
+ 1048  tail -n 100 cmds.log
+ 1049  cat cmds.log
+ 1050  ls
+ 1051  cat cmds.log
+ 1052  ls
+ 1053  cat tail
+ 1054  rm tail
+ 1055  ls
+ 1056  history > cmds.log
+ 1057  cat cmds.log
+ 1058  tail -n 100 cmds.log > cmds.log
+ 1059  cmds.log
+ 1060  cat cmds.log
+ 1061  history
+ 1062  history > cmds.log
