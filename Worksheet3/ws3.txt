@@ -1,0 +1,13 @@
+Task 1
+Highest monthly earning and country.
+
+9200000 United States
+2000000 United Kingdom
+9000000 India
+
+Task 2
+Highest subscriber count and category.
+
+96000000 WWE Sports
+166000000 MrBeast Entertainment
+162000000 Cocomelon_-_Nursery_Rhymes Education

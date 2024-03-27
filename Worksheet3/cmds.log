@@ -1,0 +1,110 @@
+  978  cat 'Global YouTube Statistics.csv'
+  979  head -n 1 'Global YouTube Statistics.csv'
+  980  grep "United States" 'Global YouTube Statistics.csv' | sort -t ',' -k 15 -n -r | head -n 1 | cut -d ',' -f 1,15
+  981  cut -d ',' -f1,15 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  982  cut -d ',' -f15 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  983  ls
+  984  cat 'Global YouTube Statistics.csv'
+  985  grep 'United States' 'Global YouTube Statistics.csv' | awk '{print $16, $8}' | sort -n | tail -1
+  986  cat stats_in_columns.csv
+  987  cat "Global YouTube Statistics.csv" | grep -E "United States|United Kingdom|India" | sort -t, -k8nr > highest_monthly_earnings_sorted.txt
+  988  ls
+  989  cat highest_monthly_earnings_sorted.txt
+  990  cut -d ',' -f2,4 "Global YouTube Statistics.csv" | grep -E "United States|United Kingdom|India" > filtered_data.csv
+  991  ls
+  992  cat filtered_data.csv
+  993  grep "United States" 'Global YouTube Statistics.csv' | sort -t ',' -k 15 -n -r | head -n 1
+  994  grep "United States" 'Global YouTube Statistics.csv' | sort -t ',' -k 15 -n -r | head -n 3
+  995  cut -d ',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  996  cut -d ',' -f15,16 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  997  cut -d ',' -f15 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  998  ls
+  999  grep 'United States' sorted_earnings.csv | head -n 1j
+ 1000  grep 'United States' sorted_earnings.csv | head -n 1
+ 1001  grep 'United Kingdom' sorted_earnings.csv | head -n 1
+ 1002  grep 'India' sorted_earnings.csv | head -n 1
+ 1003  cat sorted_earnings.csv
+ 1004  grep 'United_States' sorted_earnings.csv | awk '{print $16, $8}' |  sort -n | tail -1 >> monthly_earnings.txt 
+ 1005  cat monthly_earnings.txt 
+ 1006  monthly_earnings.txt 
+ 1007  cat monthly_earnings.txt
+ 1008  grep 'United_States' sorted_earnings.csv | awk '{print $16, $8}' |  sort -n | tail -1 >> monthly_earnings.txt | grep 'United_Kingdom' sorted_earnings.csv | awk '{print $16, $8}' | sort -n | tail -1 >> monthly_earnings.txt | grep 'India' sorted_earnings.csv | awk '{print $16, $8}' | sort -n | tail -1 >> monthly_earnings.txt
+ 1009  cat monthly_earnings.txt
+ 1010  ls
+ 1011  rm monthly_earnings.txt
+ 1012  ls
+ 1013  grep 'United States' sorted_earnings.csv | head -n 1
+ 1014  awk '{print $15, $8}'
+ 1015  grep 'United States' sorted_earnings.csv | awk '{print $15, $8}'
+ 1016  grep 'United States' sorted_earnings.csv | head -n 1
+ 1017  grep 'United States' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+ 1018  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+ 1019  grep 'India' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+ 1020  grep 'United States' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+ 1021  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $ > ws3.txt
+
+ 1022  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+ 1023  grep 'India' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+ 1024  ls
+ 1025  cd cs131
+ 1026  ls
+ 1027  cd Worksheet3
+ 1028  ls
+ 1029  touch cmds.log
+ 1030  ls
+ 1031  cat cmds.log
+ 1032  history > cmds.log
+ 1033  cat cmds.log
+ 1034  ls
+ 1035  cat ws3.txt
+ 1036  vi ws3.txt
+ 1037  cat sorted_earnings.csv
+ 1038  cd ~
+ 1039  cat sorted_earnings.csv
+ 1040  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+ 1041  cat ws3.txt
+ 1042  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+ 1043  cat ws3.txt
+ 1044  grep 'United States' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+ 1045  cat ws3.txt
+ 1046  grep 'United Kingdom' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+ 1047  cat ws3.txt
+ 1048  grep 'India' sorted_earnings.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+ 1049  cat ws3.txt
+ 1050  ls
+ 1051  cd cs131
+ 1052  ls
+ 1053  cd Worksheet3
+ 1054  ls
+ 1055  vi ws3.txt
+ 1056  cat ws3.txt
+ 1057  sort -t ',' -k 3nr 'Global YouTube Statistics.csv' > sorted_subscribers.csv
+ 1058  ls
+ 1059  cat sorted_subscribers.csv
+ 1060  rm sorted_subscribers.csv
+ 1061  ls
+ 1062  cd ~
+ 1063  ls
+ 1064  sort -t ',' -k 3nr 'Global YouTube Statistics.csv' > sorted_subscribers.csv
+ 1065  cat sorted_subscribers.csv
+ 1066  grep 'Sports' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3}'
+ 1067  grep 'Sports' sorted_subscribers.csv | head -n 1
+ 1068  grep 'Sports' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1069  grep 'Education' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1070  grep 'Entertainment' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1071  sort -t ',' -k 2nr 'Global YouTube Statistics.csv' > sorted_subscribers.csv
+ 1072  cat sorted_subscribers.csv
+ 1073  grep 'Entertainment' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1074  grep 'Education' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1075  grep 'Sports' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1076  sort -t ',' -k 3nr 'Global YouTube Statistics.csv' > sorted_subscribers.csv
+ 1077  grep 'Sports' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1078  grep 'Education' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1079  grep 'Entertainment' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1080  sed 's/ /_/g' sorted_subscribers.csv > sorted_subscribers_edited.csv
+ 1081  cat sorted_subscribers_edited.csv
+ 1082  grep grep 'Sports' sorted_subscribers_edited.csv | head -n 1 | awk -F ',' '{print $3}'
+ 1083  grep 'Sports' sorted_subscribers_edited.csv | head -n 1 | awk -F ',' '{print $3}'
+ 1084  grep 'Sports' sorted_subscribers_edited.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+ 1110  vi cmds.log
+ 1111  history > cmds.log
