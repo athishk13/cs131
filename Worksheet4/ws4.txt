@@ -1,0 +1,22 @@
+Task 1
+alias l='ls -ltr'
+alias w='ls -l | wc'
+l
+w
+
+Task 2
+grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States
+grep 'India' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/India
+cat Subscribers/United_States
+cat Subscribers/India
+awk '{ total += $1; count++ } END { print total/count }' Subscribers/United_States > ws4_means.txt
+awk '{ total += $1; count++ } END { print total/count }' Subscribers/India >> ws4_means.txt
+
+
+Task 3
+vi greetings.txt
+sed -i 's/Hello/Hi/g' greetings.txt
+sed -i '/Doe/ d' grettings.txt 
+sed -i 's/$/ (edited)/' greetings.txt
+sed -i '/Hello/s/Michael Johnson/Mike Johnson/g' greetings.txt
+sed -i 's/Michael/Mike/g' greetings.txt
