@@ -1,0 +1,78 @@
+TASK 1:
+  999  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+ 1000  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+ 1002  last
+ 1018  grep sp24 last.fake
+ 1019  grep sp24 last.fake > lastsp24.fake
+ 1020  wc -l last.fake >> Assignment3.txt
+ 1022  wc -l lastsp24.fake >> Assignment3.txt
+
+
+
+
+TASK 2:
+ 1030  cat lastsp24.fake
+ 1032  awk '/Sun/ {print $1}' lastsp24.fake | uniq
+ 1035  awk 'BEGIN {print "The list of people who worked on Sunday are:"} /Sun/ {print $1}' lastsp24.fake | uniq
+ 1036 grep Sun lastsp24.fake | sort | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $1} END {print "Kudos to these people for putting in the work"}' | uniq >> Assignment3.txt
+ 1037  cd cs131
+ 1038  cd Assignment3
+ 1039  vi Assignment3.txt
+ 1040  cd ~
+ 1041  ls
+ 1042  cat lastsp24.fake
+
+
+
+TASK 3:
+ 1005 awk '/(23:|[0][0-3]:[0-5][0-9])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt
+ 1006  cd cs131
+ 1007  cd Assignment3
+ 1009  vi Assignment3.txt
+
+
+
+TASK 4:
+ 1024 awk '/(0[5-9]:|[0][0-8]:[0-5][0-9])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt
+ 1025  cd cs131
+ 1026  cd Assignment3
+ 1027  vi Assignment3.txt
+ 1028  cd ~
+ 1029  vi task4script
+ 1030  cd cs131
+ 1031  cd Assignment3
+
+
+
+TASK 5:
+ 1047  awk '/^t/ {print $1}' lastsp24.fake | uniq
+ 1048  awk '/^t/ {print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+ 1049  cd cs131
+ 1050  cd Assignment3
+ 1051  vi Assignment3.txt
+
+
+
+TASK 6:
+ 1053  ls
+ 1054  cat passwd.fake
+ 1058  awk -F: '/^a/ && ($3 % 2 == 0) {print $1}' passwd.fake >> Assignment3.txt
+ 1059  cd cs131
+ 1061  cd Assignment3
+
+
+
+TASK 7:
+ 1032  vi Assignment3.txt
+ 1034  cat passwd.fake
+ 1035  sed 's/[[:alnum:]{:space:]]//g' passwd.fake
+ 1036  sed 's/[[:alnum:]{:space:]]//g' passwd.fake | sort -u
+ 1037  cd cs131
+ 1038  cd Assignment3
+ 1039  vi Assignment3.txt
+ 1040  history >> cmds.log
+  996  cat passwd.fake
+  997  sed 's/[[:alpha:][:digit:][:space:]]//g' passwd.fake | sort -u >> Assignment3.txt
+  998  cd cs131
+  999  cd Assignment3
+ 1000  vi Assignment3.txt
