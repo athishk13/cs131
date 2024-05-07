@@ -1,0 +1,45 @@
+ 1019  cd cs131
+ 1020  cd Worksheet5
+ 1021  ls
+ 1022  ./forloop.sh
+ 1023  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+ 1024  ./forloop.sh
+ 1025  ls
+ 1026  vi forloop.sh
+ 1027  ls
+ 1028  ./forloop.sh
+ 1029  grep "United States" 'Global YouTube Statistics.csv' >> youtubeUS.csv
+ 1030  vi forloop.sh
+ 1031  ./forloop.sh
+ 1032  cd UnitedStates
+ 1033  ls
+ 1034  vi Comedy.txt
+ 1035  vi ws5.txt
+ 1036  ls
+ 1037  cat Comedy.txt
+ 1038  cat Entertainment.txt
+ 1039  clear
+ 1040  ls
+ 1041  cd ..
+ 1042  ls
+ 1043  cat ws5.txt
+ 1044  mv ws5.txt Worksheet5
+ 1045  ls
+ 1046  mv Worksheet5 ws5.txt
+ 1047  ls
+ 1048  rm ws5.txt
+ 1049  cd UnitedStates
+ 1050  ls
+ 1051  vi ws5.txt
+ 1052  rm ws5.txt
+ 1053  cd ..
+ 1054  vi ws5.txt
+ 1055  ls
+ 1056  cat youtubeUS.csv
+ 1057  cd ..
+ 1058  cd Worksheet5
+ 1059  ls
+ 1060  cat forloop.sh
+ 1061  vi forloop.sh
+ 1062  ls
+ 1063  history > cmds.log
